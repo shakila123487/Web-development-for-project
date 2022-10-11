@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 header{
 background-image: url("pro/image.png");
 height:622px;
