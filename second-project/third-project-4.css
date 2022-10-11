@@ -1,0 +1,152 @@
+.header-5{
+     height:1000px;
+    
+   background:  linear-gradient(rgb(247, 239, 239) 75%,rgb(197, 174, 174) ,rgb(153, 137, 137),
+   rgb(173, 160, 160),rgb(245, 239, 239)); 
+
+}
+.header-5 .pic-04{
+    top:170px;
+    left:60px;
+    float:left;
+    position: relative;    
+} 
+.pic-04 .pic-05{
+    width:50px;
+    margin-left:-30px;
+   position: absolute;
+   bottom: 0;
+   right: 5px;
+    
+}
+.header-5 .pic-04::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-5 h1{
+position:relative;
+top:-390px;
+ text-align: center;
+}
+.header-5 h1,.section-09 h1{
+    font-size:2.7em;
+    color:#142d49;    
+}
+.header-5 .img2{
+    position: relative;
+    top:20px;
+    left:-40px;
+    width:740px;
+    height:auto;   
+}
+.header-5 .cont-02{
+    display: flex;
+    margin-top: 200px;
+   overflow: hidden;
+}
+.header-5 .cont-02 .img3{ 
+   width:30%;
+   height:9%;
+   padding:45px 10px;
+}
+.header-5 .cont-02 .img3:first-child{
+    margin-left: 50px;
+}
+.section-09{
+   background-color:rgb(247, 239, 239);
+   height:1260px;
+   margin-top: -37px;
+}
+.section-09 h1{
+   
+    padding: 150px 120px;
+}
+.section-09 p{
+     margin-top: -140px;
+    padding-left: 120px;
+    font-size:25px;
+    word-spacing: 8px;
+    color:rgb(83, 76, 76);
+    font-family:'Arial Narrow', Arial, sans-serif
+}
+.section-09 .four-div1{
+    margin: 70px 140px;
+     width:86%;
+     height:240px;
+    
+}
+.section-09 .four-div1 .div-02{
+    width:26%;
+    height:230px;
+    float:left;
+    background-color: #fff;
+   
+    border-bottom:1px solid rgba(207, 200, 200, 0.37);
+    border-left: 1px solid rgba(158, 157, 157, 0.37);
+    border-right: 1px solid rgba(207, 200, 200, 0.37);
+    margin-right: 80px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 1px rgb(207, 200, 200);
+}
+.section-09 .four-div1 .div-02 .cir img{
+    margin: 7px 7px;
+    width:35px;
+}
+.section-09 .four-div1 .div-02 .cir
+{
+    margin: 30px auto;
+    width:50px;
+    height:50px;
+    background-color: #194D8B;
+    border-radius: 50%;
+}
+.section-09 .four-div1 .div-02  h2{
+    margin: 30px 78px; 
+      font-size: 27px;
+      color:#194D8B;
+}
+.section-09 .h-help{
+    margin-left: 120px;
+    
+}
+.section-09 .nave{
+    
+    padding: 30px 10px; 
+    margin: -70px -480px;
+    
+}
+.section-09  .nave .butt3{
+    width:230px;
+    
+}
+.nave .butt3 h3{
+    position: relative;
+    top:-75px;
+}
+/*---------------------------------------------------------------------------->*/
+.pic-06 .img4{
+
+    position: absolute;
+    left:460px;
+    top:0px;
+}
+.pic-06 .img5{
+    width:700px;
+     position: relative;
+     bottom: -60px;
+
+}
+.header-5 .cont-03{
+    margin-top: 720px;
+}
+.header-5 h2{
+    
+    height: 100px;
+    position: absolute;
+    top:100px;
+    left:510px;
+    font-size: 40px;
+    color:#142d49;
+}

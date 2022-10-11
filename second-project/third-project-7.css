@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.l-1{
+    height:600px;
+    width:430px;
+    box-shadow: 1px 0 2px rgb(207, 200, 200);
+    float:left;
+}
+.myf{
+    list-style-type: none;   
+}
+.l-1 a .myl{
+    width:310px;
+    padding:13px 5px 13px 50px;
+    margin-top: 12px;
+    box-shadow: 1px 3px 2px rgb(207, 200, 200);
+}
+.l-1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:#194D8B; ;
+}
+.myf div{
+    width:30px;
+    background-color: #194D8B;
+    transition: width 3s ease-out;
+}
+.myf div:hover,.myf a:hover{
+    width:310px;
+    color: white;
+}
+.cars{  
+ height:770px;
+}
+.cars .car-1,.cars .car-3{
+   float:left;
+   box-shadow: 0 6px 3px rgb(207, 200, 200);
+}
+.cars .car-1,
+.cars .car-3{
+    height:355px;
+    width:386px;
+}
+.cars .car-1 span,
+.cars .car-2 span,
+.cars .car-3 span,
+.cars .car-4 span{
+    background-color:white;
+    display: block;
+    width:115px;
+    padding: 8px 10px;
+    position: relative;
+    left:250px;
+    border-radius: 7px;
+    color:#194D8B;
+}
+.cars .car-1 .bot,
+.cars .car-2 .bot,
+.cars .car-3 .bot,
+.cars .car-4 .bot{
+    color: aliceblue;
+    background-color:#194D8B;
+    height:142px;
+}
+.cars .car-2 .bot{
+    margin-top: -30px;
+}
+.cars .car-1 .bot,
+.cars .car-4 .bot{
+margin-top: -18px;
+}
+.cars .car-3 .bot{
+    margin-top: -19px;
+}
+.cars .car-2,
+.cars .car-4{
+    box-shadow: 0 6px 3px rgb(207, 200, 200);
+    margin:30px 120px 20px 840px;    
+}
+.cars .car-3{
+    margin-top: 10px;
+}
+.cars .car-1 img,
+.cars .car-4 img{
+    padding:15px 0 0 45px;
+}
+.cars .car-1 .bot p,
+.cars .car-2 .bot p,
+.cars .car-3 .bot p,
+.cars .car-4 .bot p,
+.cars .car-1 .bot h2,
+.cars .car-2 .bot h2,
+.cars .car-3 .bot h2,
+.cars .car-4 .bot h2{
+    margin-left: 30px;
+}
+.tooltiptext{
+    width:100px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    display: inline-block;
+   
+}
+.tooltiptext .-img{
+   margin-left: 20px;
+}
+.tooltiptext .tooltip{
+    padding:5px 10px;
+    border:6px solid green;
+    width:240px;
+    height:100px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left:-150%;
+    margin-left: -60px;
+    line-height: 20px;
+    visibility: hidden;
+
+}
+.tooltiptext:hover .tooltip{
+    visibility: visible;
+
+}
+

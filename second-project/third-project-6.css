@@ -1,0 +1,55 @@
+.header-4{
+    height:460px;
+}
+
+.header-4 .pic-k{
+    background: url("prog/unsplash_UEQvUtRs224.png") no-repeat ;
+    height: 210px;
+}
+.mysec{
+   width:1349px;
+  height:1050px;   
+}
+.cont-1{
+    position: relative;
+    left:150px;
+    top:90px;
+    width:1049px;
+    
+}
+.picc-1 img,
+.picc-2 img,
+.picc-3 img{
+    float:left;
+    margin-right: 20px;
+}
+.picc-1:after,
+.picc-2:after,
+.picc-3:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.picc-1 .inner .but,
+.picc-2 .inner .but,
+.picc-3 .inner .but{
+    padding: 4px 10px;
+    background-color:#142d49;
+    display: inline;
+    border-radius: 15px;
+    color:white;
+    line-height: 50px;
+}
+.inner p{
+    line-height: 30px;
+}
+.cont-1 .picc-1,
+.cont-1 .picc-2{
+    border-bottom: 1px solid rgb(199, 189, 189);
+}
+ .cont-1 .picc-2,
+ .cont-1 .picc-3{
+
+    margin-top: 40px;
+    
+}
