@@ -1,0 +1,159 @@
+body{
+    margin:0;   
+}
+header{
+    height:1058px;
+    background: url("proge/Vector (1).png") no-repeat 110px 620px,url("proge/Vector (2).png") no-repeat 340px 599px,
+    url("proge/Vector (2).png") no-repeat 90px 830px ;
+    background-size: 229px 219px,63px 64px,80px 81px;   
+    
+}
+
+.div-1{
+    height:70px;
+    border-bottom: 3px solid rgb(148, 111, 111);
+}
+.div-1 h1{
+    margin-left: 70px;
+   text-shadow: 2px 1px;   
+}
+ul{
+    list-style-type: none;
+    margin: -54px 190px;
+}
+nav{
+    padding-top: 40px;
+    margin-top: -55px;
+    margin-left:20px;
+}
+nav ul li{
+   float:left;
+   margin:17px 3px;
+   padding:7px  25px;
+}
+nav ul li a,.div-2 .butt,.box div,.img p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a{
+    display:inline-block;
+   text-decoration: none;
+   padding: 3px 5px;
+   color:rgb(112, 96, 96);
+   font-weight: bold;  
+}
+nav ul li a:hover{
+     border-bottom: 1px solid black;
+     color:black;
+}
+ul .dis,ul .dis1{
+    position:absolute;    
+}
+   ul .dis{
+right:170px;
+}
+ ul .dis1{
+    background-color: black;
+    right:50px;
+    border-radius: 19px;
+}
+.pro{
+  display: flex;
+}
+ .pro .div-2{
+    margin-left: 70px;
+    float:left;
+    margin-right: 118px;
+}
+.pro:after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+  .div-2 .butt{
+    background-color:blue;
+    color:white;
+    width:180px;
+    height:20px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: -70px;
+    border-radius: 30px;
+    font-size: 18px;  
+    font-weight:bolder;
+  }
+
+  @font-face {
+    font-family:fontstyle;
+   src:url('Afecta Free Version.ttf');   
+ }
+  .pro .div-2 p{
+    font-family:fontstyle;
+    font-size: 120px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    color:rgb(56, 49, 49);
+    text-shadow: 1px 2px 1px rgb(172, 160, 160);  
+  }
+  header .pro img{
+    padding-bottom: 35px;
+    width:650px;
+    
+  }
+  .box{   
+    position: absolute;
+    right:0;
+    margin-top: -35px;
+  }
+  .box div{
+    width:282px;
+    height:270px;
+    border:1px solid rgb(71, 61, 61);
+    float:left;
+    padding:30px 20px;
+  }
+  .box .box-2{
+    background: url("proge/Asset 1 1.png") no-repeat 25px 203px,
+    url("proge/Asset 1 1.png") 106px 210px no-repeat,url("proge/Asset 1 1.png") 35px 274px no-repeat;
+    background-size: 100px,32px,20px;
+  }
+  .box .box-3{
+    background:url("proge/Arrow.png") no-repeat 270px 25px;  
+  }
+  .box .box-1 p{
+    margin-top: 90px; 
+  }
+  .box .box-1{
+    color: white;
+    background-color: blue;
+  }
+  .box .box-1 abbr,.box .box-3 abbr{
+    font-size: 90px;  
+  }
+  .box .box-3 abbr{
+    position: absolute;
+    bottom: 50px;
+    right:130px;
+  }
+  header .img{
+    width: 300px;
+    height:90px;
+     position: absolute;
+     display: flex;
+    bottom:-410px;
+    left: 50px;  
+  }
+  header .img img{
+    width:58px;
+    height:57px; 
+    
+ 
+  }
+  .img p{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1px;
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(71, 56, 56);
+  }
